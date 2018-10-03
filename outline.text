@@ -1,0 +1,71 @@
+# Outline 
+
+An outline for the blockchain presentation
+
+# Context
+
+- transactions between two parties
+- e.g. money transfer
+
+## History
+
+Haber, S. & Stornetta, W. S. (1991). How to time-stamp a digital document. *Journal of Cryptology*, *3*(2), p. 99-111. Retrived from <https://link.springer.com/article/10.1007%2FBF00196791>
+
+- create a system where document timestamps can't be tampered with
+
+Bayer, D., Haber, S., & Stornetta, W. S. (1992). Improving the efficiency and reliability of digital time-stamping. *Sequences II*, p. 329-334. Retrieved from <https://link.springer.com/chapter/10.1007%2F978-1-4613-9323-8_24>
+
+- added Merkle trees to the design and combine several documents into one *block*
+
+Nakamoto, S. (2008 October). *Bitcoin: A peer-to-peer electronic cash system*. Retrieved from <https://github.com/wbnns/bitcoinwhitepaper>
+
+- Satoshi Nakamoto
+- a mashup of previously shared ideas (encryption, distributed computing) combined to form the technology that undergirds bitcoin with blockchain as the backbone of the system
+- a public ledger of all transactions on the network
+
+## Background on centralized, transaction systems (problems to solve)
+
+- transfer money from person A to person B
+- use a 3rd trusted party
+- person A orders money to be transfered to person B
+- the 3rd party moves the money to person B after verifying person B and takes a small fee
+
+### Problems to solve
+
+- take out the 3rd party
+- faster than it takes
+- cheaper than the fee charged
+
+# Concepts
+
+## Principle 1
+
+- open ledger
+- chain of transactions that is open and public to everyone
+- everyone on the network can see what has happened and can see valid and invalid transactions
+
+## Principle 2
+
+- decentralized, distributed ledger
+- new problem; keeping the various copies of the ledger up-to-date across the entire network
+
+## Principle 3
+
+- nodes need to sync the ledger across all nodes
+- unvalidated transactions and mining
+- competing nodes to validate and put the transaction (or group of transactions) into the ledger
+
+1. Validate the new transaction (are the funds there to transfer)
+2. Find a special key to enable the miner to lock the new transaction to the previous transactions in the blockchain (crypto puzzle); first to do it will get a financial reward; broadcasts the solution to the network so all nodes can link the transaction(s) to the ledger
+
+- centralization
+- trusted 3rd-party
+- delay
+- double-spending
+
+- distributed secure database
+- distributed consensus algorithm
+
+# Details
+
+<https://www.blockchain.com/explorer>

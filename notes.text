@@ -1,0 +1,49 @@
+# Notes for making the blockchain presentation
+
+hash puzzles
+cryptography puzzles
+mining
+proof-of-work system
+
+- known partial input based on the existing state of the blockchain (e.g. must start with 1011101) 
+- designated output (e.g. must end with 000232)
+- find the hash that when put through the hash function can satisfy the input and output criteria
+
+merkle trees
+
+- for data integrity
+- multiple transactions in a block
+- e.g. tx0, tx1, tx2, tx3 combined in a tree pattern to create a root hash
+
+block + chain
+
+blockchain != bitcoin
+
+block = header and transactions
+header = previous block hash, merkle root hash, nonce, version?, timestamp?
+transactions = list of transactions (e.g. tx0 (solution hash), tx1, tx2, tx3)
+blocks in the main chain are numbers starting with 0
+0 is the genesis block
+blockchain forks or orphaned forks
+
+open ledger
+distributed network/nodes
+special nodes (mining nodes)
+block
+
+hash
+private-public keys
+
+---
+
+public key cryptography
+
+symmetric system
+
+HELLO -> KEY -> XYGEF -> KEY -> HELLO
+
+asymmetric system
+
+HELLO -> KEY A -> XYGEF -> KEY B -> HELLO
+
+KEY A and KEY B are a key pair
