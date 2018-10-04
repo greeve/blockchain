@@ -47,3 +47,8 @@ asymmetric system
 HELLO -> KEY A -> XYGEF -> KEY B -> HELLO
 
 KEY A and KEY B are a key pair
+
+---
+
+Blocks in bitcoin are created every 10 minutes on average
+Ethereum blocks are created every 17 seconds on average
